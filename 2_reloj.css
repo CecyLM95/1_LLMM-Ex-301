@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#reloj{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: white;
+    border-width: 5px;
+    border: solid;
+    border-color: black;
+}
+
+@keyframes agujasegundos{
+    0%  {rotate:(0deg)}
+    200% {rotate:(360deg)}
+}
+
+.manecillas{
+    display: flex;
+    color: black;
+    justify-items: center;
+    border: solid;
+    width: 200px;
+}
+
+#segundos{
+    animation-name: agujasegundos;
+}

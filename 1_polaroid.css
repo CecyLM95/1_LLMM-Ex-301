@@ -1,0 +1,52 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-right: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+p{
+    color: black;
+    text-align: center;
+}
+
+@keyframes cambiocolor {
+    0%{background-color:red;}
+    33%{background-color:orange;}
+    66%{background-color:yellow;}
+    100%{background-color:blue;}
+}
+
+.color{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    animation-name: cambiocolor;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+.polaroid{
+    max-width:200px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 2px 2px 2px grey;
+}
+.polaroid:nth-child(2n+1){
+    transform: rotate(-25deg);
+}
+.polaroid:nth-child(2n){
+    transform: rotate(10deg);
+    /* z-index: (); */
+}
+
+
+
+
+
