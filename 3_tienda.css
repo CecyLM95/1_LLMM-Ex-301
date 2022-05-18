@@ -1,0 +1,16 @@
+
+h1{
+    color: blue;
+}
+
+.blanco{
+    color:white;
+}
+#tarjeta{
+    background-color: grey;
+    border-radius: 8px;
+    width: 300px;
+    padding: 2px;
+    margin: 5px;
+}
+

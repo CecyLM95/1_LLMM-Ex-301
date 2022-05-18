@@ -25,8 +25,8 @@ p{
 
 .color{
     background-color: red;
-    height: 100px;
-    width: 150px;
+    min-height: 100px;
+    min-width: 150px;
     animation-name: cambiocolor;
     animation-duration: 5s;
     animation-delay: 0.5s;
@@ -34,7 +34,7 @@ p{
 }
 .polaroid{
     max-width:200px;
-    padding: 10px;
+    padding: 12px;
     color: white;
     box-shadow: 0 2px 2px 2px grey;
 }

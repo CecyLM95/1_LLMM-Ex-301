@@ -6,5 +6,29 @@
     <title>Tienda Online</title>
     <encabezado>Bienvenid@s a mi tienda</encabezado>
     <descripcion>Esto es una tienda online que vende productos a través de internet</descripcion>
-             
+
+    <producto>
+        <nombre>Queso</nombre>
+        <descripcion>Queso de untar para bocadillos</descripcion>
+        <precio>2€</precio>
+    </producto> 
+
+    <producto>
+        <nombre>Pan</nombre>
+        <descripcion>Pan integral con semillas</descripcion>
+        <precio>0.50€</precio>
+    </producto>  
+
+    <producto>
+        <nombre>Mostaza</nombre>
+        <descripcion>Marca Heinz</descripcion>
+        <precio>3€</precio>
+    </producto>  
+
+    <producto>
+        <nombre>Hamburguesas</nombre>
+        <descripcion>Hecha con carne de ternera</descripcion>
+        <precio>4€</precio>
+    </producto>  
+  
 </tienda>
